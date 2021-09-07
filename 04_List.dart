@@ -12,7 +12,7 @@ main() {
 
   List<String> listData = [];
   listData.add('90');
-  listData.addAll(['60', '70', '80']);
+  listData.addAll(['60', '70', '80', '60']);
   print(listData);
 
   print(listData.length);
