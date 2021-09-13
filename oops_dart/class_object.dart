@@ -10,7 +10,7 @@ class ClassName {
   // upperCamelCase
   /**
    * Fields or attributes
-   * Cosntructors
+   * Costructors
    * Methods (functions)
    * Getters and Setters
    */
