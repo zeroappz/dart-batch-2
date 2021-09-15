@@ -7,6 +7,7 @@
 // instructions();
 // }
 class ClassOne {
+  late String obj;
   instructions() {
     print('Normal Instructions...'); // no use
   }
@@ -19,6 +20,9 @@ class ClassTwo {
 }
 
 class OutputClass implements ClassOne, ClassTwo {
+  @override
+  String obj = 'Status';
+  
   @override
   instructions() {
     print('OutputClass Instructions are overriden with the super class..');
